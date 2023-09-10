@@ -20,6 +20,6 @@ public class BasketServiceImpl implements BasketService {
 
     @Override
     public List<Long> get() {
-        return null;
+        return basket.getBasketList();
     }
 }
